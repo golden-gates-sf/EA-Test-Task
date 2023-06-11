@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./script.js" defer></script>
+    <title>EA Test Redchenko</title>
+  </head>
+  <body>
+    <div class="left-blob"></div>
+    <div class="right-blob"></div>
+    <header>
+      <a href="./">
+        <img src="./img/Group.svg" />
+      </a>
+    </header>
+    <main>
+      <section class="event-description-section">
+        <h1>Under Construction</h1>
+        <h4>We're making lots of improvements and will be back soon</h4>
+      </section>
+      <section class="time-section">
+        <div class="time-section-component">
+          <span class="time-numbers days">00</span>
+          <div class="time-label">
+            <span class="time-label-text">
+              Days
+            </span>
+            <img src="img/time-name-bg.svg" />
+          </div>
+        </div>
+        <span class="colon">:</span>
+        <div class="time-section-component">
+          <span class="time-numbers hours">00</span>
+          <div class="time-label">
+            <span class="time-label-text">
+              Hours
+            </span>
+            <img src="img/time-name-bg.svg" />
+          </div>
+        </div>
+        <span class="colon">:</span>
+        <div class="time-section-component">
+          <span class="time-numbers minutes">00</span>
+          <div class="time-label">
+            <span class="time-label-text">
+              Minutes
+            </span>
+            <img src="img/time-name-bg.svg" />
+          </div>
+        </div>
+        <span class="colon">:</span>
+        <div class="time-section-component">
+          <span class="time-numbers seconds">00</span>
+          <div class="time-label">
+            <span class="time-label-text">
+              Seconds
+            </span>
+            <img src="img/time-name-bg.svg" />
+          </div>
+        </div>
+      </section>
+      <section class="event-page-section">
+        <span>Check our event page when you wait:</span>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="event-page-link"
+          >Go to the event
+          <img src="img/arrow-right.png" />
+        </a>
+      </section>
+    </main>
+    <footer>
+      <form id="email-form">
+        <div class="email-input-form">
+          <input
+            type="text"
+            id="email-input"
+            class="email-input"
+            placeholder="Enter your Email and get notified"
+          />
+        <label>
+          <div class="email-send-btn">
+            <img src="img/arrow-right.png" />
+          </div>
+          <input type="submit"> 
+        </label>
+        </div>
+        <label class="email-label-invalid">invalid email</label>
+     </form>
+    </footer>
+    <div class="modal-overlay" id="modal-overlay">
+      <div class="lds-dual-ring"></div>
+      <div class="modal-window">
+        <img id="modal-cross" class="modal-cross" src="./img/modal-cross.svg"/>
+        <div class="modal-body">
+          <h3 class="modal-heading">Success!</h3>
+          <p class="modal-text">You have successfully subscribed to the email newsletter</p>
+          <button id="modal-close-btn" class="modal-btn">Close</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
